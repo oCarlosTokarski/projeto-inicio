@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <h1>Informaçoes pessoais</h1>
+        <form action="/cadastro" method="post" autocomplete="off">
+        <fieldset>
+            <legend>Cadastro do cliente</legend>
+            <label>Nome:</label>
+            <input type="text" name="nome" placeholder="Digite seu nome"> <br><br>
+            
+            <label>Idade:</label>
+            <input type="number" name="idade" placeholder="Digite sua idade"><br><br>
+           
+            <label>Endereço:</label>
+            <input type="text" name="endereco" placeholder="Digite seu endereço"><br><br>
+           
+            <label>Cidade:</label>
+            <input type="text" name="cidade" placeholder="Digite a cidade"><br><br>
+           
+            <label>Estado:</label>
+            <input type="text" name="estado" placeholder="UF"><br><br>
+           
+            <label>CEP:</label>
+            <input type="number" name="Cep:" placeholder="XXXXX-XXX"><br><br>
+            
+            <label>Tel/Res</label>
+            <input type="number" name="telefone" placeholder="99 99999-9999"><br><br>
+            
+            <label>Tel/Cel</label>
+            <input type="number" name="celular" placeholder="99 99999-9999"><br><br>
+            
+            <label>Email</label>
+            <input type="email" name="email" placeholder="Digite seu email"><br><br>
+        </fieldset>
+        </form>
+        <button type="submit" onclick="alert('Enviado com sucesso')">Enviar</button>
+
+<br><br><br>
+<a href="index.html">Home</a>
+</body>
+</html>
